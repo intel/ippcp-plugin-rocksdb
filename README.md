@@ -1,4 +1,4 @@
-# IPPCP AES-CTR Encryption Provider
+# Intel® Integrated Performance Primitives Cryptography Plugin for RocksDB* Storage Engine
 
 `ippcp` is an encryption provider for RocksDB that is based on Intel's Integrated Performance Primitives for Cryptography (IPPCP). IPPCP is a lightweight cryptography library that is highly optimized for various Intel CPUs. It's used here to provide AES-128/192/256 encryption, with a CTR mode of operation, for RocksDB.
 
@@ -7,7 +7,7 @@
 There is a dependency on ipp cryptograhy library (ippcp) which needs to be installed. Please refer below link for installtion.
 https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-ipp-crypto-for-oneapi-linux/top.html
 
-Once Installed source opt/intel/oneapi/ippcp/latest/env/var.sh
+Once Installed source /opt/intel/oneapi/ippcp/latest/env/var.sh
 
 
 ## Build
