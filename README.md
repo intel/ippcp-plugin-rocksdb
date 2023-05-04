@@ -16,7 +16,7 @@ The code first needs to be linked under RocksDB's "plugin/" directory. In your R
 
 ```
 $ pushd ./plugin/
-$ git clone https://github.com/intel-innersource/libraries.databases.rocksdb.rocksdb-ipp-encryptor.git ippcp
+$ git clone https://github.com/intel/ippcp-plugin-rocksdb.git ippcp
 ```
 
 Next, we can build and install RocksDB with this plugin as follows:
