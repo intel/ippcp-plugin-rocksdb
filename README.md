@@ -23,7 +23,7 @@ Next, we can build and install RocksDB with this plugin as follows:
 
 ```
 $ popd
-$ make clean && ROCKSDB_PLUGINS=ippcp make -j48 release
+$ make clean && ROCKSDB_PLUGINS=ippcp make -j release
 ```
 
 ## Testing
