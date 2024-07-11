@@ -49,7 +49,7 @@ make run
 ```
 ## Tool usage
 
-For RocksDB binaries (such as the `db_bench` we built above), the plugin can be enabled through configuration. `db_bench` in particular takes a `--fs_uri` where we can specify "dedupfs" , which is the name registered by this plugin. Example usage:
+For RocksDB binaries (such as the `db_bench` we built above), the plugin can be enabled through configuration. `db_bench` in particular takes a `--env_uri` where we can specify "ippcp_db_bench_env" , which is the name registered by this plugin. Example usage:
 
 ```
 $ ./db_bench --benchmarks=fillseq --env_uri=ippcp_db_bench_env --compression_type=none
