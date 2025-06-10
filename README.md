@@ -59,4 +59,3 @@ $ ./db_bench --benchmarks=fillseq --env_uri=ippcp_db_bench_env --compression_typ
 
 The plugin's interface is also exposed to applications, which can enable it either through configuration or through code. Example available under the "examples/" directory.
 
-```
